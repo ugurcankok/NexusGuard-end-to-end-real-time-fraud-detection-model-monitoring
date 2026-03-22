@@ -63,5 +63,16 @@ A key highlight is the **Zero-Touch Deployment** model: using Jenkins and Docker
 * **Grafana:** Visit `http://localhost:3000` (admin/admin) to view the real-time Fraud Analytics dashboard.
 * **API Docs:** Visit `http://localhost:8000/docs` to test the prediction endpoint manually.
 
+## 📊 Dataset Information
+
+The model is trained using the **Credit Card Fraud Detection** dataset. Due to GitHub's file size limits and best practices for repository management, the raw dataset is **not included** in this repository.
+
+* **Source:** [Kaggle - Credit Card Fraud Detection](https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud)
+* **Format:** `CSV` (284,807 transactions)
+* **Target Column:** `Class` (0 for Genuine, 1 for Fraud)
+
+> [!IMPORTANT]  
+> Before starting, please download the `creditcard.csv` from the link above and place it in the `data/` directory of this project.
+
 ## Contributing
 Contributions are welcome to enhance model accuracy or add more monitoring exporters. Please submit a Pull Request.
