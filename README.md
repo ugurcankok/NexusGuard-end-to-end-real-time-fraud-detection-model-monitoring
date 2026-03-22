@@ -36,13 +36,6 @@ A key highlight is the **Zero-Touch Deployment** model: using Jenkins and Docker
 * **Monitoring:** Prometheus, Grafana
 * **CI/CD & DevOps:** Jenkins, Docker, Docker Compose
 
-## Getting Started
-
-### Prerequisites
-* Docker and Docker Compose.
-* Minimum 8GB RAM (16GB recommended for smooth performance).
-* GitHub account for CI/CD integration.
-
 ## 📊 Dataset Information
 
 The model is trained using the **Credit Card Fraud Detection** dataset. Due to GitHub's file size limits and best practices for repository management, the raw dataset is **not included** in this repository.
@@ -51,8 +44,15 @@ The model is trained using the **Credit Card Fraud Detection** dataset. Due to G
 * **Format:** `CSV` (284,807 transactions)
 * **Target Column:** `Class` (0 for Genuine, 1 for Fraud)
 
+## Getting Started
+
+### Prerequisites
+* Docker and Docker Compose.
+* Minimum 8GB RAM (16GB recommended for smooth performance).
+* GitHub account for CI/CD integration.
+
 > [!IMPORTANT]  
-> Before starting, please download the `creditcard.csv` from the link above and place it in the `data/` directory of this project.
+> Before running, please download the `creditcard.csv` from the link above and place it in the `data/` directory of this project.
 
 ### Steps to Run
 1.  **Start the Infrastructure:**
