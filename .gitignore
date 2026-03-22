@@ -2,4 +2,9 @@
 .DS_Store
 __pycache__
 jenkins_home
-.git
+
+data/*
+!data/.gitkeep
+
+mlruns/*
+!mlruns/.gitkeep
