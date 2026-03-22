@@ -5,3 +5,4 @@ jenkins_home
 mlruns/*
 !mlruns/.gitkeep
 .git
+data/creditcard.csv
